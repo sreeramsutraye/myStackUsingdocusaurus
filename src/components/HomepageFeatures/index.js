@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'React JS',
+    Svg: require('@site/static/img/reactjs-icon.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        React is a free and open-source front-end JavaScript library 
+        for building user interfaces based on UI components. 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'FastAPI',
+    Svg: require('@site/static/img/fastapi-icon.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        FastAPI is an asynchronous web framework for developing RESTful APIs in Python and can run with Uvicorn and Gunicorn. 
+        FastAPI is based on Pydantic and type hints to validate, serialize, and deserialize data.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'MongoDB',
+    Svg: require('@site/static/img/mongodb-icon.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        MongoDB is a source-available cross-platform document-oriented database program. 
+        Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.
       </>
     ),
   },
